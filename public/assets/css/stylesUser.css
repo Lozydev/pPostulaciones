@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: var(--color-bg-body-black) !important;
+  }
+
+  .contenedor-letras{
+    margin-top: 20%;
+  }
+  
+.mrt-5{
+  margin-top: 5%;
+}
+
+.mrb-5{
+  margin-bottom: 5%;
+}
+
+.pxy{
+  padding: 0.6%;
+}
+
+  /* Styles */
+  .text-center-own {
+    text-align: center;
+  }
+  
+  .d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Responsive */
+  
+  .row-own {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  /* Formulario de registro */
+
+.bg-form{
+    background: rgb(240,0,141);
+    background: linear-gradient(150deg, rgba(240,0,141,1) 1%, rgba(252,242,2,1) 50%, rgba(1,174,243,1) 100%) no-repeat fixed;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+
+.bg-login-btn{
+  background-color: var(--color-rosa)!important;
+  color: var(--color-blanco)!important;
+  border: var(--color-rosa)!important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  margin-top: 25px;
+}
+  .bg-login-btn:hover{
+  
+      background-color: var(--color-negro) !important;
+  }
+
+
+/* Menu */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li>a:hover {
+  color: #d3bc14;
+}
+
+li a:hover:not(.active) {
+  background-color: #0000007d;
+}
+
+.form-sesion{
+  float: right;
+}
+
+
+/* Catalogo */
+
+.thumb-producto{
+  width: 50%;
+  height: 25%;
+  margin-top: 15px;
+}
+
+.circle{
+  border-radius: 50%;
+}
+
+.card-container{
+  width: 95%;
+  height: 350px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+.text-card{
+  margin-top: 10%;
+}
+
+.blanco{
+  color: var(--color-rosa) !important;
+  margin-top:100px;
+}
+
+/* Contacto */
+
+.form-group-own{
+  margin: 15px;
+}
+
+.form-bg{
+  background-color: #fff;
+  width: 40%;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.input-form{
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #d3bc14 2px;
+}
+
+.input-form:hover{
+  background-color: rgba(51, 51, 51, 0.162);
+}
+
+.input-form:focus, .input-form:active{
+  outline: none;
+}
+
+.textarea-form{
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #d3bc14 2px;
+  max-height: 250px;
+}
+
+.textarea-form:focus, .textarea-form:active{
+  outline: none;
+}
